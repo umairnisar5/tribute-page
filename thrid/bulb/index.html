@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <script>
+      function myFunction() {
+document.getElementById('amir').innerHTML="heloooo boss";
+      }
+      
+    </script>
+  </head>
+  <body>
+    <h1 id="hello">wellcome to java</h1>
+    <button
+      type="button"
+      onclick="document.getElementById('hello').innerHTML ='hello javascript wellcome back'"
+    >
+      push me
+    </button>
+    <p>im creat a bulb</p>
+    <button
+      onclick="document.getElementById('myimage').src='on.gif'"
+    >
+      turn on bulb
+    </button>
+    <img
+      id="myimage"
+      src="off.gif"
+      alt="bulb"
+      width="200px"
+    />
+    <button
+      onclick="document.getElementById('myimage').src='off.gif'"
+    >
+      turn off bulb
+    </button>
+    <p id="font">  webdeveplor save the life and change the futre</p>
+    <button onclick="document.getElementById('font').style.fontSize='40px'"> press me -:)</button>
+    <p id="amir">umair</p>
+    <button onclick="myFunction()">one click</button>
+    <p>its a magic baby</p>
+    <button onclick="window.print()">print the page</button>
+  </body>
+</html>
